@@ -33,7 +33,7 @@ const DrumMachine = () => {
         case '5': // Press '5' to play the ride
           audio = new Audio(ride);
           break;
-        case '6': // Press '6' to play the crahs
+        case '6': // Press '6' to play the crash
           audio = new Audio(crash);
           break;  
         default:
